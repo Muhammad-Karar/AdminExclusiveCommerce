@@ -8,7 +8,7 @@ import AddBestSelling from './AddBestSelling'
 
 export default function Admin() {
   return (
-    <div>
+    <div className='lg:flex'>
       <Sidebar/>
       <Routes>
         <Route path='/addProduct' element={<AddProduct/>}/>
